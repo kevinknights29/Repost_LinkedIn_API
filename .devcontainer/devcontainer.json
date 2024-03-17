@@ -7,7 +7,7 @@
     "customizations": {
         "vscode": {
             "settings": {
-                "python.defaultInterpreterPath": "/opt/app/venv/bin/python"
+                "python.defaultInterpreterPath": "/opt/app/.venv/bin/python"
             },
             "extensions": [
                 "charliermarsh.ruff",
