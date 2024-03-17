@@ -13,7 +13,7 @@ REQUIREMENTS_FILE=$1
 uv venv
 
 # Activate the virtual environment
-source venv/bin/activate
+source ./.venv/bin/activate
 
 # Install the Python packages
 uv pip install -r $REQUIREMENTS_FILE
