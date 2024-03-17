@@ -30,10 +30,10 @@ RUN pip install uv
 COPY install_dependencies.sh .
 
 # Change the permissions of the installation script to make it executable
-RUN chmod +x install_dependencies.sh
+RUN chmod +x ./install_dependencies.sh
 
 # Copy the requirements file
 COPY requirements.txt .
 
 # Install dependencies from the requirements file
-RUN ./install_dependencies.sh requirements.txt
+RUN ./install_dependencies.sh ./requirements.txt
