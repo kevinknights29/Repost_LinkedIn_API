@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Check if the path to the requirements file was provided
 if [ -z "$1" ]; then
