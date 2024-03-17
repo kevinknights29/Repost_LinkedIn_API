@@ -16,4 +16,4 @@ uv venv
 source venv/bin/activate
 
 # Install the Python packages
-uv pip install -r requirements.txt
+uv pip install -r $REQUIREMENTS_FILE
