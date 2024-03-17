@@ -26,7 +26,7 @@
                 "usernamehw.errorlens",
                 "VisualStudioExptTeam.intellicode-api-usage-examples",
                 "VisualStudioExptTeam.vscodeintellicode",
-                "ms-toolsai.jupyter"
+                "donjayamanne.python-environment-manager"
             ]
         }
     },
