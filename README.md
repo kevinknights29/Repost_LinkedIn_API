@@ -28,6 +28,7 @@ This project aims to extract the post a given user has reposted.
 
 | Date | Learning |
 |------|----------|
-|      |          |
+| 03-17-24 | UV has a fast environment setup time. |
+| 03-17-24 | Even though Alpine images are lighter, is hard to make them compatible with pre-commit. |
 
 ## Resources
