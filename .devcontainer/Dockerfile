@@ -1,20 +1,22 @@
 # Use an official Python runtime as a parent image.
 # See https://hub.docker.com/_/python for more information.
 # To understand docker image tags, see https://forums.docker.com/t/differences-between-standard-docker-images-and-alpine-slim-versions/134973
-FROM python:alpine
+FROM python:slim-bullseye
 
 # Install system packages
-RUN apk update \
-    && apk add --no-cache \
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
     # deps for downloading models
     curl \
     # deps for development
     git \
     openssh-client \
     # deps for python packages
-    build-base \
-    python3-dev
-
+    build-essential \
+    python3-dev \
+    libffi-dev \
+    g++ \
+    && apt-get clean
 
 # Set the working directory to /opt/app
 WORKDIR /opt/app
