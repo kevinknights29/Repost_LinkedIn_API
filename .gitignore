@@ -5,6 +5,9 @@
 # Pre-commit Hooks
 .ruff_cache/
 
+# Exported Data
+data/
+
 # =====================================
 # Python
 # =====================================
