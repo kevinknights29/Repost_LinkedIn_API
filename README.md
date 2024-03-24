@@ -22,7 +22,9 @@ The goal of this project is to create a solution for extracting reposted posts f
 
 By leveraging the `linkedin-api` package, reposted posts were successfully extracted.
 
-![image](https://github.com/kevinknights29/Repost_LinkedIn_API/assets/74464814/28781824-e4e0-4c38-8453-b0520c54a188)
+Added sorting so that older reposts appear first.
+
+![image](https://github.com/kevinknights29/Repost_LinkedIn_API/assets/74464814/9d25fac1-5cd1-4f13-8875-36704b9d312a)
 
 Check the code [here](main.py).
 
@@ -62,6 +64,7 @@ Various alternatives were considered before opting for the `linkedin-api` librar
 | 03-17-24 | Web scraping appears to be the most viable approach for extracting reposted posts from a LinkedIn user. |
 | 03-18-24 | Found a package called `linkedin-api` which circumvented the issues above. |
 | 03-18-24 | `linkedin-api` works great, but it requires disabling 2FA for it to function, raising potential security concerns. |
+| 03-24-24 | By leveraging a named tuple, I could access the sorted function to order post based on absolute time. |
 
 ## Resources
 
